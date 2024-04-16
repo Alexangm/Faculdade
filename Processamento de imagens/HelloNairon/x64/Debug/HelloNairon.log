@@ -1,0 +1,3 @@
+﻿  HelloNairon.cpp
+C:\Users\Alexsander\source\repos\HelloNairon\HelloNairon\HelloNairon.cpp(9,19): warning C4244: 'inicializando': conversão de 'time_t' para 'unsigned int', possível perda de dados
+  HelloNairon.vcxproj -> C:\Users\Alexsander\source\repos\HelloNairon\x64\Debug\HelloNairon.exe
