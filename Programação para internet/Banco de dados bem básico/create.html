@@ -1,0 +1,14 @@
+CREATE DATABASE dbppi;
+USE dbppi;
+
+CREATE TABLE produtos(
+	idproduto INT PRIMARY KEY AUTO_INCREMENT,
+    marca VARCHAR(50),
+    nome VARCHAR(50),
+    valor VARCHAR(50)
+);
+
+DESCRIBE produtos;
+SELECT * FROM produtos;
+
+INSERT INTO produtos(marca, nome, valor) VALUES ("Sony", "Ps5", "5000");
