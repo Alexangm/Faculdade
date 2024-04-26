@@ -1,0 +1,46 @@
+<?xml version = "1.0" standalone = "yes"?>
+
+<UNIPACNet>
+	<disciplinas>
+		<disciplina>Anatomia</disciplina>
+		<alunos>
+			<aluno>
+				<matricula>12000412</matricula>
+				<cpf>237.633.317-27</cpf>
+				<endereco>Rua da Diminuição - 481 Machadinha</endereco>
+				<telefone>31999457892</telefone>
+				<nome>Doroteia Bezerra Fonsceca</nome>
+			</aluno>
+		</alunos>
+		<disciplina>Dietética</disciplina>
+		<alunos>
+			<aluno>
+				<matricula>12000507</matricula>
+				<cpf>237.473.317-00</cpf>
+				<endereco>Avenida Vasconn - 11 Mônica</endereco>
+				<telefone>31999488543</telefone>
+				<nome>Pedro Ângelo Silveira</nome>
+			</aluno>
+		</alunos>
+		<disciplina>Cines</disciplina>
+		<alunos>
+			<aluno>
+				<matricula>10412201</matricula>
+				<cpf>237.000.317-37</cpf>
+				<endereco>Rua Ronaldo da Silva - 48 Centro</endereco>
+				<telefone>31999411892</telefone>
+				<nome>Leonardo de Melo Barbosa</nome>
+			</aluno>
+		</alunos>
+		<disciplina>Filosofia</disciplina>
+		<alunos>
+			<aluno>
+				<matricula>10412340</matricula>
+				<cpf>017.477.317-17</cpf>
+				<endereco>Ponte Uniself - 778 Copacabano</endereco>
+				<telefone>31999457800</telefone>
+				<nome>Larissa Cotta Santos</nome>
+			</aluno>
+		</alunos>
+	</disciplinas>
+</UNIPACNet>

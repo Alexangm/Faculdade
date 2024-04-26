@@ -1,0 +1,15 @@
+1) s doença = sarampo(Paciente)
+
+2) s especialidade = ortopedista AND idade>40 (Médico)
+
+3) s CRM = 46 OR CRM = 79 (médicos) ? s data, hora(Consulta)
+
+4) s andar = 4 (Ambulatório),  s capacidade =50 OU númeroA >10 (Ambulatório)
+
+5) p nome, especialidade (Médico)
+
+6)  p númeroA (s andar =3(Ambulatório))
+
+7) p medico.CRM, consulta.data ( s RG = 122 OR RG = 725 (Paciente))
+
+8) p númeroA ((s andar != 2 AND andar != 4) AND (capacidade > 50))

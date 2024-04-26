@@ -1,0 +1,68 @@
+CREATE TABLE Produto (
+    codigo_produto VARCHAR(5),
+    nome_produto VARCHAR(80),
+    custo_unitario FLOAT,
+    PRIMARY KEY (codigo_produto)
+);
+
+insert into Produto values ('001', 'Leite Condensado', 1.49);
+insert into Produto values ('002', 'Achocolatado', 6.70);
+
+CREATE TABLE Receita (
+    codigo_receita VARCHAR(5),
+    nome_receita VARCHAR(80),
+    custo_total FLOAT,
+    PRIMARY KEY (codigo_receita) 
+);
+
+insert into Receita values ('1A', 'Brigadeiro', 8.19);
+insert into Receita values ('1B', 'Super Chocolate', 11.02);
+
+CREATE TABLE Ingrediente (
+    codigo_receita VARCHAR(5),
+    codigo_produto VARCHAR(5),
+    quantidade FLOAT,
+    PRIMARY KEY (codigo_receita, codigo_produto, quantidade),
+    FOREIGN KEY (codigo_receita) REFERENCES Receita (codigo_receita),
+    FOREIGN KEY (codigo_produto) REFERENCES Produto (codigo_produto)
+);
+
+insert into Ingrediente values ('1A', '001', 1);
+insert into Ingrediente values ('1A', '002', 1);
+insert into Ingrediente values ('1B', '001', 2);
+insert into Ingrediente values ('1B', '002', 1.2);
+
+--a) Escreva uma consulta que liste o nome dos Produtos que aparecem em mais de uma Receita.
+select distinct Produto.nome_produto from Produto, Receita, Ingrediente
+where 
+
+--b) Escreva uma procedure que retorne uma consulta de todos os produtos cadastrados.
+create procedure BuscaProdutos
+        @Produtos varchar(10)
+as select * from Produto;
+
+exec BuscaProdutos Busca
+
+--c) Escreva uma procedure que retorne uma consulta de todas as receitas cadastradas.
+create procedure BuscaReceitas
+        @Receitas varchar(10)
+as select * from Receita;
+
+exec BuscaReceitas Busca
+
+--d) Escreva uma procedure que retorne uma consulta de todos os ingredientes cadastrados.
+create procedure BuscaIngredientes
+        @Ingredientes varchar(10)
+as select * from Ingrediente;
+
+exec BuscaIngredientes Busca
+
+--e) Escreva uma procedure que retorne as receitas com os ingredientes e produtos.
+create procedure BuscaGeral
+        @Tudo varchar(10)
+as select distinct Receita.codigo_receita, Receita.nome_receita, Produto.nome_produto, Ingrediente.quantidade
+from Produto, Receita, Ingrediente where Receita.codigo_receita = Ingrediente.codigo_receita;
+
+exec BuscaGeral Busca
+
+drop procedure BuscaGeral

@@ -1,0 +1,93 @@
+<?xml version = "1.0" standalone = "yes"?>
+
+<Projeto> 
+	<Ambulatorios>
+		<Ambulatorio>
+			<numeroA>100</numeroA>
+			<andar>1</andar>
+			<capacidade>100 pessoas</capacidade>
+		</Ambulatorio>
+			
+		<Ambulatorio>
+			<numeroA>200</numeroA>
+			<andar>2</andar>
+			<capacidade>200 pessoas</capacidade>
+		</Ambulatorio>
+	</Ambulatorios>
+	
+	<Medicos>
+		<Medico>
+			<CRM>01234567-8</CRM>
+			<rg>MG-02.468.024</rg>
+			<nome>Sakura Haruno</nome>
+			<idade>23</idade>
+			<cidade>Konoha</cidade>
+			<especialidade>Cardiologia</especialidade>
+			<numeroA>1</numeroA>
+		</Medico>
+
+		<Medico>
+			<CRM>87654320-1</CRM>
+			<rg>RJ-13.579.135</rg>
+			<nome>Tsunade Senju</nome>
+			<idade>68</idade>
+			<cidade>Barramansa</cidade>
+			<especialidade>Pediatra</especialidade>
+			<numerA>2</numerA>
+		</Medico>
+	</Medicos>
+
+
+	<Pacientes>
+		<Paciente>
+			<RG>13579135-7</RG>
+			<nome>Magno Carlos</nome>
+			<idade>30</idade>
+			<cidade>Prados</cidade>
+			<doenca>Sopro no coração</doenca>
+		</Paciente>
+
+		<Paciente>
+			<RG>24680246-8</RG>
+			<nome>Ricardo Naro</nome>
+			<idade>7</idade>
+			<cidade>Barroso</cidade>
+			<doenca>Anemia</doenca>
+		</Paciente>
+	</Pacientes>
+
+	<Consultas>
+		<Consulta>
+			<CRM>01234567-8</CRM>
+			<RG>13579135-7</RG>
+			<data>03/05/2012</data>
+			<hora>14:00</hora>
+		</Consulta>
+
+		<Consulta>
+			<CRM>87654320-1</CRM>
+			<RG>24680246-8</RG>
+			<data>04//06/2012</data>
+			<hora>15:00</hora>
+		</Consulta>		
+	</Consultas>
+
+	<Funcionarios>
+		<Funcionario>
+			<RG>13579135-2</RG>
+			<nome>Pedro Oroci</nome>
+			<idade>23</idade>
+			<cidade>Cuiaba</cidade>
+			<salario>2400,00</salario>
+		</Funcionario>
+
+		<Funcionario>
+			<RG>24680246-1</RG>
+			<nome>Amanda Serrr</nome>
+			<idade>19</idade>
+			<cidade>Barbacena</cidade>
+			<salario>2000,00</salario>
+		</Funcionario>
+	</Funcionarios>
+	<teste>
+</Projeto>
