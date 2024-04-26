@@ -1,0 +1,21 @@
+body{
+	background-color: #f4f3ee;
+	margin-left: 0;
+}
+h1 {
+	text-align: center;	
+	color: #463f3a;
+}
+h4{
+	color: #8a817c;
+	margin-block-start: 7px;
+    margin-block-end: 7px;
+    margin-inline-start: 10px;
+    font-weight: bold;
+
+}
+
+div {
+	border: solid;
+	margin-left: 0;
+}
