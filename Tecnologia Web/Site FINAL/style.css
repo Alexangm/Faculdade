@@ -1,0 +1,198 @@
+body{
+	overflow-x: hidden;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+
+#cabeçalho{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	width: 1000px;
+	height: 150px;
+}
+
+#menu{
+	width: 1366px;
+	height: 40px;
+	margin: auto;
+}
+
+#menu ul{
+	margin: auto;
+	width: auto;
+	height: 40px;
+	background-color: black;
+	list-style: none;
+}
+
+#menu ul li{
+	display: inline;
+}
+
+#menu ul li a{
+	padding: 6px 60px;
+	display: inline-block;
+	text-decoration: none;
+    font-family: Monotype Corsiva, Arial, Georgia;
+    font-size: 20pt;
+    color: white;
+}
+
+#menu ul li a:hover{
+	color: grey;
+}
+
+
+.unicfd{
+	text-align: left;
+	width: 1342px;
+	margin: auto;
+	border: 0;
+	color: black:
+
+	
+}
+
+.cascao{
+	word-wrap: break-word;
+	font-size: 16pt;
+	color: #999999;
+	font-family: all;
+	margin: auto;
+	padding: 0px 4px 0px;
+	float: left;
+	width: 300px;
+	font-family: Gabriola Regular;
+	font-weight: bold;
+	
+}
+
+.cascao1 a {
+	font-size: 13pt;
+	line-height: 1mm; 
+	color: #FFFFFF;
+
+
+}
+
+.cascao1 {
+	font-size: 13pt;
+	line-height: 1mm; 
+	color: #FFFFFF;
+
+
+}
+
+.cascaosolo{
+	font-size: 13pt;
+	line-height: 1mm; 
+	color: #999999;
+	font-family: Gabriola Regular;
+	font-weight: bold;
+	
+}
+
+
+.fale{
+	font-size: 14pt;
+	color: black;
+	border-color: none;
+	margin: 20px auto;
+	float: center;
+	width: 1366px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.test{
+	width: 300px;
+	padding: 7px;
+}
+
+.test1{
+	width: 75px;
+	padding: 6px;
+}
+
+.pol1{
+	margin: 35px 0px 0px 30px;
+	color: #000000;
+	font-size: 20pt;
+	font-style: "Times"
+	font-weight: bold;
+	line-height: 1mm;
+}
+.pol2{
+	margin: 35px 0px 0px 30px;
+	color: #000000;
+	font-style: "Times New Roman";
+	font-size: 13pt;
+	font-weight: 500px;
+}
+.pol3{
+	margin: 35px 0px 0px 30px;
+	color: #000000;
+	font-size: 15pt;
+	line-height: 1mm;
+
+}
+
+.pol4{
+	margin: 35px 0px 0px 30px;
+	color: #000000;
+	font-size: 13pt;
+
+}
+
+.pol5{
+	margin: 35px 0px 0px 30px;
+	color: #000000;
+	font-size: 14pt;
+	font-weight: bold;
+	line-height: 1mm;
+}
+.pol6{
+	color: #000000;
+	font-size: 13pt;
+}
+
+a{
+	text-decoration: none;
+}
+
+fieldset{
+	background-color: black;
+}
+
+.center{
+	text-decoration: none;
+	text-align: center;
+	font-size: 16pt;
+	font-family: Calibri;
+}
+
+.price{
+	font-weight: bold;
+	font-size: 24pt;
+	font-family: Calibri;
+	text-align: center;
+}
+
+.sobre{
+	font-family: calibri, arial, georgia;
+	font-size: 14pt;
+	font-style: none;
+	text-align: center;
+	margin: 50px 100px 100px 100px;
+}
+
+.politica{
+	font-family: calibri, arial, georgia;
+	font-size: 14pt;
+	font-style: none;
+	text-align: left;
+	margin: auto;
+	width: 1366px;
+}
