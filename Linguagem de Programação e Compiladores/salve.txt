@@ -1,0 +1,24 @@
+#include <iostream>
+
+int main()
+{
+  float num1, num2;
+  int sel; 
+	
+  std::cout << "Hello Osvano"; 
+  std::cout << "Digite o primeiro número: ";
+  std::cin >> num1;
+
+  std::cout << "Digite o segundo número: ";
+  std::cin >> num2;
+
+  std::cout << "Digite o operador: \n1 para soma\n2 para subtração\n3 para multiplicação\n4 para divisão\n";
+  std::cin >> sel;
+
+  if(sel==1) std::cout <<"Resultado da soma: " << num1+num2;
+  else if(sel==2) std::cout <<"Resultado da subtração: " << num1-num2;
+  else if(sel==3) std::cout <<"Resultado da multiplicação: " << num1*num2;
+  else if(sel==4) std::cout <<"Resultado da divisão: " << num1/num2;
+
+  return 0;
+}

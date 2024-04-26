@@ -1,0 +1,24 @@
+#Options
+GenerateScanner = true
+GenerateParser = false
+Language = Delphi
+ScannerName = Lexico
+ScannerCaseSensitive = true
+ScannerTable = Full
+Input = Stream
+#RegularDefinitions
+L  : [A-Za-z]
+D  : [0-9]
+
+#Tokens
+"+"
+"-"
+"*"
+"/"
+"("
+")"
+"="
+";"
+
+id : {L} ( {L} | {D} )*
+num : {D}+

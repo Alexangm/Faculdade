@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  float x,y,z;
+  float media;
+
+  cout << "Hello, Osvanos!\n";
+  cout << "Digite aqui o primeiro número: ";
+  cin >> x;
+  cout << "Digite aqui o segundo número: ";
+  cin >> y;
+  cout << "Digite aqui o terceiro número: ";
+  cin >> z;
+  
+  media = (x+y+z)/3;
+  cout << "Média= " << media;
+  
+}
