@@ -4,8 +4,8 @@ As pastas se dividem baseados nas matérias, com mais informações nos "README"
 
 > não altere esta linha!!!!!!!!
 
-essa*
-sadfjdisdajfds
-fjkosdpoifjkdspfjsd
+essa* \
+sadfjdisdajfds \
+fjkosdpoifjkdspfjsd \
 fjksdpifjksdpjfksdpjif
 psdfjipsdfjsdoi
